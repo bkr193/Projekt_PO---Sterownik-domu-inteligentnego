@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="domek" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/domek" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/domek" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/czujnik_o.h" />
+		<Unit filename="include/czujnik_s.h" />
+		<Unit filename="include/czujnik_t.h" />
+		<Unit filename="include/dzienny.h" />
+		<Unit filename="include/interfejs.h" />
+		<Unit filename="include/kuchnia.h" />
+		<Unit filename="include/lazienka.h" />
+		<Unit filename="include/obiekt.h" />
+		<Unit filename="include/pomieszczenie.h" />
+		<Unit filename="include/sypialnia.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/czujnik_o.cpp" />
+		<Unit filename="src/czujnik_s.cpp" />
+		<Unit filename="src/czujnik_t.cpp" />
+		<Unit filename="src/dzienny.cpp" />
+		<Unit filename="src/interfejs.cpp" />
+		<Unit filename="src/kuchnia.cpp" />
+		<Unit filename="src/lazienka.cpp" />
+		<Unit filename="src/obiekt.cpp" />
+		<Unit filename="src/pomieszczenie.cpp" />
+		<Unit filename="src/sypialnia.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

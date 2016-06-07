@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1465311644 source:c:\users\maciej\desktop\domek\domek\main.cpp
+	<iostream>
+	"interfejs.h"
+
+1465317467 c:\users\maciej\desktop\domek\domek\include\interfejs.h
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<vector>
+	"pomieszczenie.h"
+	"obiekt.h"
+
+1465321180 c:\users\maciej\desktop\domek\domek\include\pomieszczenie.h
+	<iostream>
+	"kuchnia.h"
+	"dzienny.h"
+	"lazienka.h"
+	"sypialnia.h"
+	"czujnik_o.h"
+	"czujnik_s.h"
+	"czujnik_t.h"
+	"obiekt.h"
+	<vector>
+	<conio.h>
+	<stdlib.h>
+
+1465307836 c:\users\maciej\desktop\domek\domek\include\kuchnia.h
+	<pomieszczenie.h>
+
+1465307823 c:\users\maciej\desktop\domek\domek\include\dzienny.h
+	<pomieszczenie.h>
+
+1465307840 c:\users\maciej\desktop\domek\domek\include\lazienka.h
+	<pomieszczenie.h>
+
+1465307844 c:\users\maciej\desktop\domek\domek\include\sypialnia.h
+	<pomieszczenie.h>
+
+1465298784 c:\users\maciej\desktop\domek\domek\include\czujnik_o.h
+	<obiekt.h>
+	<conio.h>
+	<stdlib.h>
+
+1465308147 c:\users\maciej\desktop\domek\domek\include\obiekt.h
+	"czujnik_t.h"
+	"czujnik_s.h"
+	"czujnik_o.h"
+	<vector>
+	"czujnik_o.h"
+	"czujnik_s.h"
+	"czujnik_t.h"
+	<iostream>
+
+1465306639 c:\users\maciej\desktop\domek\domek\include\czujnik_t.h
+	<obiekt.h>
+	<conio.h>
+	<stdlib.h>
+
+1465298787 c:\users\maciej\desktop\domek\domek\include\czujnik_s.h
+	<obiekt.h>
+	<conio.h>
+	<stdlib.h>
+
+1465320714 source:c:\users\maciej\desktop\domek\domek\src\czujnik_o.cpp
+	"czujnik_o.h"
+
+1465320588 source:c:\users\maciej\desktop\domek\domek\src\czujnik_s.cpp
+	"czujnik_s.h"
+
+1465321388 source:c:\users\maciej\desktop\domek\domek\src\czujnik_t.cpp
+	"czujnik_t.h"
+
+1465313026 source:c:\users\maciej\desktop\domek\domek\src\dzienny.cpp
+	"dzienny.h"
+
+1465319217 source:c:\users\maciej\desktop\domek\domek\src\interfejs.cpp
+	"interfejs.h"
+
+1465313071 source:c:\users\maciej\desktop\domek\domek\src\kuchnia.cpp
+	"kuchnia.h"
+
+1465313075 source:c:\users\maciej\desktop\domek\domek\src\lazienka.cpp
+	"lazienka.h"
+
+1465252322 source:c:\users\maciej\desktop\domek\domek\src\obiekt.cpp
+	"obiekt.h"
+
+1465318587 source:c:\users\maciej\desktop\domek\domek\src\pomieszczenie.cpp
+	"pomieszczenie.h"
+
+1465313079 source:c:\users\maciej\desktop\domek\domek\src\sypialnia.cpp
+	"sypialnia.h"
+
