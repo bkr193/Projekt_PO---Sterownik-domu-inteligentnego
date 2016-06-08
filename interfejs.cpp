@@ -323,7 +323,7 @@ void interfejs::sprawdz()
     else
     {
 
-        pomieszczenia.at(liczba-1)->obiekty.at(liczba)->pokaz_parametry();
+        pomieszczenia.at(liczba-1)->obiekty.at(0)->pokaz_parametry();
     }
 
     cout<<""<<endl;
