@@ -1,3 +1,3 @@
-# Projekt_PO---Sterownik-domu-inteligentnego
+# Projekt_PO---Sterownik-domu-inteligentnego Objective programming academic project -- Smart Home Coroller
 
-HASŁO DO LOGOWANIA TO: 12345
+Logging passowrd: 12345
